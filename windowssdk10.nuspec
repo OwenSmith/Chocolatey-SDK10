@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>windowssdk10</id>
+    <title>Windows Software Development Kit 10</title>
+    <version>10.0.17763</version>
+    <authors>Microsoft</authors>
+    <owners>Owen Smith</owners>
+    <summary>This is the SDK Version 10 for use with Visual Studio 2017.</summary>
+    <description>The Windows Software Development Kit includes the necessary tools to build and deploy applications for Windows.</description>
+    <tags>WindowsSDK admin sdk sdk10 visual studio</tags>
+    <packageSourceUrl>https://github.com/owensmith/Chocolatey-SDK10</packageSourceUrl>
+    <releaseNotes />
+    <projectUrl>https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk</projectUrl>
+    <licenseUrl>https://msdn.microsoft.com/en-US/cc300389.aspx</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
